@@ -1,0 +1,335 @@
+@media (max-width:330px){
+    .art-head__title{
+        width: 30rem;
+    }
+    @media  (max-width:400px) {
+        .artist-robot-left-top img{
+            width: 100%;
+            height: 31rem;
+        }
+        .artist-robot-left-bottom img {
+            width: 100%;
+            height: 31rem;
+        }
+    }
+}
+@media (min-width:576px){
+.nav-menu{
+    display: none;
+}
+.header-content__title{
+    font-size: 4.4rem;
+}
+.header-content__img{
+    width: 34rem;
+    height: 38rem;
+}
+.nft__img{
+    width: 24rem;
+    height: 26rem;
+}
+
+.artist-head__title{
+    font-size: 3.5rem;
+    width: 26rem;
+}
+.subscribe-index{
+  display: flex;
+   position: relative;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #131E3A;
+  border-radius: .8rem;
+  padding: 1rem;
+flex-basis: 6rem;
+}
+.subscribe__form{
+    display: flex;
+    height: 100%;
+}
+.subscribe__email{
+    margin-bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+.subscribe-images{
+left: 10rem;
+}
+.subscribe__imge{
+    width: 26rem;
+    height: 23rem;
+}
+.subscribe__imge--robot{
+    width: 15.4rem;
+    height: 19.4rem;
+}
+
+}
+@media (min-width:768px){
+    .header__toggle-icon{
+        display: none;
+    }
+    .mobile-menu{
+        display: none;
+    }
+    .nav-menu{
+        display: flex;
+    }
+    .header-content__title{
+        font-size: 4.9rem;
+        max-width: 44rem;
+    }
+    .header-content__description{
+        max-width: 47rem;
+    }
+    .header-content__img{
+        width: 38rem;
+        height: 42rem;
+    }
+    .art-head{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .art-head__title{
+        text-align: left;
+    }
+    .art-head__link{
+        display: block;
+    }
+    .art-package{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+.nft{
+    display: flex;
+}
+.nft__title{
+    text-align: justify;
+   margin-right: 0;
+   margin-left: 0;
+   margin-bottom: 1rem;
+}
+.nft__caption{
+    text-align: start;
+    width: 30rem;
+}
+.nft__img{
+    width: 26rem;
+    height: 30rem;
+}
+.nft__img-human{
+    width: 24rem;
+    height: 22rem;
+}
+.artist-head__title{
+    font-size: 3.9rem;
+}
+.subscrib-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subscrib-content__title{
+    width: 30rem;
+}
+.subscibe-content__caption{
+    width: 49rem;
+}
+.subscribe-index{
+    width: 52rem;
+}
+@media (min-width:992px){
+    .logo__img{
+        width: 2.8rem;
+        height: 2.8rem;
+    }
+    .header__title{
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+    .nav__links{
+        display: block;
+    }
+    .header-content__left{
+        align-items: start;
+    }
+    .header-content__title{
+        font-size:5.4rem;
+        text-align: start;
+        max-width: 50rem;
+    }
+    .header-content__description{
+        text-align: start;
+        max-width: 55rem;
+        margin-bottom: 3rem;
+    }
+    .header-content__links{
+display: flex;
+    }
+    .header-content{
+        margin-top: 5rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+    }
+    .header-content__img{
+        width: 48rem;
+        height: 54rem;
+    }
+    .header-content__bid{
+        top: 55rem;
+        right: 20rem;
+    }
+    .art-head{
+        margin-bottom: 2rem;
+    }
+    .art-head__title{
+        font-size: 4.8rem;
+        width: 55rem;
+    }
+.art-package{
+    justify-content: space-between;
+}
+    .package{
+       width: 40rem;
+       height: 50rem;
+    }
+    .package__img{
+        height: 34rem;
+    }
+    .nft{
+        display: flex;
+        flex-direction: row;
+      align-items: center;
+      max-width: 110rem;
+    }
+    .nft__content{
+align-items: flex-start;
+
+    }
+    .nft__caption{
+        width: 43rem;
+    }
+    .artist-head{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .art-head__title{
+        font-size: 4.3rem;
+    }
+   .artist-head__link{
+display: block;
+   }
+   .artist-robot{
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+   }
+.subscribe{
+    display: flex;
+    flex-direction: row-reverse;
+justify-content: space-between;
+align-items: center;
+}
+.subscribe-images{margin-right: 7rem;
+}
+}
+@media (min-width:1200px){
+    .header-content{
+        margin-left: 0;
+    }
+    .header-content__title{
+        font-size: 5.9rem;
+        line-height: 1;
+    }
+    .header-content__img{
+        width: 100%;
+    }
+    .nft__title{
+        font-size: 4.8rem;
+        width: 40rem;
+        max-width: 100%;
+text-align: start;
+margin-bottom: 2rem;
+    }
+    .nft__img{
+        width: 35rem;
+        height: 40rem;
+    }
+    .nft__img-human{
+width: 35rem;
+height: 33rem;
+    left: -6rem;
+    }
+    .artist-head__title{
+        font-size:4.5rem;
+    }
+    .artist-robot{
+        gap: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+       }
+
+    .robot-blue{
+        display: none;
+    }
+    .footer__top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer__option{
+        justify-content: space-between;
+    }
+}
+@media (min-width:1400px){
+    .header-content__title{
+        font-size: 6.4rem;
+    }
+    .artist-head__title{
+        font-size: 4.8rem;
+        width: 35rem;
+    }
+    .artist-robot{
+        display: grid;
+        grid-template-columns:auto;
+        grid-template-rows: repeat(2,1fr);
+       }
+    .robot-blue{
+    grid-column: 3/4;
+    grid-row: 1/3;
+    display: block;
+       }
+       .robot-blue img{
+        width: 100%;
+        height: 100%;
+       }
+       .artist-robot-left-top{
+        grid-column: 1/3;
+        grid-row: 1/2;
+       }
+       .artist-robot-left-bottom{
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+ 
+           .artist-robot-left-top img{
+    width: auto;
+    height: auto;
+}
+.artist-robot-left-bottom img {
+    width: auto;
+    height: auto;
+}   .artist-robot-left-bottom img {
+        height: 31rem;
+        width: 41rem;
+    }
+}}
